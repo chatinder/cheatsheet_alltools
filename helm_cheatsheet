@@ -1,1 +1,8 @@
 helm template --values application-helm/values.yaml --output-dir ./manifests ./application-helm
+
+
+important commands
+
+search charts under your repo
+
+helm search repo <repo name>
